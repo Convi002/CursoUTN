@@ -1,12 +1,12 @@
 body {
-<<<<<<< HEAD
+
 	background: #e9b0f5;
 	background: radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
 	background: -webkit-radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
 	background: -moz-radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
-=======
+
 	background-color: #D8D8E8;
->>>>>>> 13cb697ed9e9df12f780e4d0273ffcba56191d70
+
 }
 
 h2 {
@@ -18,7 +18,6 @@ h2 {
 
 p {
 	text-align: justify;
-<<<<<<< HEAD
 	margin: 5px;
 	padding: 5px;
 	background-color: #582D7D;
@@ -53,8 +52,6 @@ p {
 	font-size: 20px;
 	padding: 10px;
 	color: #7105FF;
-=======
 	margin: 0 90px 0 20px;
 	background-color: #C9C9F6;
->>>>>>> 13cb697ed9e9df12f780e4d0273ffcba56191d70
 }
