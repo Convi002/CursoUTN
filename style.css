@@ -1,0 +1,51 @@
+body {
+	background: #e9b0f5;
+	background: radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
+	background: -webkit-radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
+	background: -moz-radial-gradient(ellipse farthest-side at center center, #e9b0f5 1%, #e6d4ff 90%);
+}
+
+h2 {
+	color: #0A0AFF;
+	font-size: 25px;
+	margin-left: 10px;
+
+}
+
+p {
+	text-align: justify;
+	margin: 5px;
+	padding: 5px;
+	background-color: #582D7D;
+	column-count: 2;
+	column-gap: 20px;
+
+	box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
+	-webkit-box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
+	-moz-box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
+
+	border-radius: 5px;
+	font-family: 'Rubik', sans-serif;
+
+	color: white;
+
+}
+
+.Nombre h1 {
+	font-family: 'Bonheur Royale', cursive;
+	color: #7105FF;
+}
+
+.Datos h2 {
+	font-family: 'Anton', sans-serif;
+}
+
+.Datos li {
+	font-family: 'Anton', sans-serif;	
+}
+
+.icono {
+	font-size: 20px;
+	padding: 10px;
+	color: #7105FF;
+}
