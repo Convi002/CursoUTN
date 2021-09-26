@@ -9,6 +9,14 @@ body {
 
 }
 
+.img {
+	border: 17px double #a550ff;
+	width: 45%;
+	border-radius: 18px 53px 51px 0px;
+	-webkit-border-radius: 18px 53px 51px 0px;
+	-moz-border-radius: 18px 53px 51px 0px;
+}
+
 h2 {
 	color: #0A0AFF;
 	font-size: 25px;
