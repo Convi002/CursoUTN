@@ -8,10 +8,10 @@ body {
 	background-color: #D8D8E8;
 
 }
-
+/*
 .img {
 	border: 17px double #a550ff;
-	width: 45%;
+	width: 250px;
 	border-radius: 18px 53px 51px 0px;
 	-webkit-border-radius: 18px 53px 51px 0px;
 	-moz-border-radius: 18px 53px 51px 0px;
@@ -43,10 +43,206 @@ p {
 
 }
 
-.Nombre h1 {
+.Nombrecontainer {
+	border: 8px solid black;
+	background-color: #e9b0f5;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.Nombrecontainer h1 {
 	font-family: 'Bonheur Royale', cursive;
 	color: #7105FF;
 }
+
+.Nombre {
+	width: 250px;
+	background-color: white;
+	margin: 0;
+	border: 4px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Foto {
+	width: 350px;
+	background-color: blue;
+	margin: 0;
+	border: 4px solid black;
+	-webkit-border-radius: 18px 53px 51px 0px;
+	-moz-border-radius: 18px 53px 51px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cv {
+	width: 250px;
+	background-color: white;
+	margin: 0;
+	border: 4px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+*/
+
+/* Cuadro con botones at top */
+.Datos1 {
+	border: 8px solid black;
+	height: 650px;
+	width: 65%;
+	background-color: #e9b0f5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	flex-direction: row-reverse;
+}
+
+
+.Edad1 {
+		background-color: #A0A0A0;
+	width: 300px;
+	height: 200px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+
+	
+}
+
+.Dom1 {	background-color: #A0A0A0;
+	width: 300px;
+	height: 200px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Extra1 {	background-color: #A0A0A0;
+	width: 300px;
+	height: 200px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+/*cuadro con columna a la derecha */
+
+.Datos {
+	height: 600px;
+	width: 90%;
+	background-color: #808080;
+	border: 8px solid #606060;
+	margin-top: 5px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+
+
+.Edad {
+	background-color: #A0A0A0;
+	width: 300px;
+	height: 200px;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+
+	
+}
+
+.Dom {
+	background-color: #A0A0A0;
+	margin: 2px;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.Extra {
+	background-color: #A0A0A0;
+	margin: 2px;
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Cuadro con botones centrados */
+
+.Datos2 {
+	border: 8px solid black;
+	height: 950px;
+	width:75%;
+	
+	background-color: #e9b0f5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: row-reverse;
+}
+
+
+.Edad2 {
+	background-color: #A0A0A0;
+	margin: 2px;
+	width: 350px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+
+	
+}
+
+.Dom2 {
+	background-color: #A0A0A0;
+	margin: 2px;
+	width: 350px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+
+.Extra2 {
+	background-color: #A0A0A0;
+	margin: 2px;
+	width: 350px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .Datos h2 {
 	font-family: 'Anton', sans-serif;
@@ -60,6 +256,11 @@ p {
 	font-size: 20px;
 	padding: 10px;
 	color: #7105FF;
-	margin: 0 90px 0 20px;
-	background-color: #C9C9F6;
+	margin: 0;
+	background-color: #A0A0A0;
+}
+
+.listas {
+	position: relative;
+	top: 900px;
 }
