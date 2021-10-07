@@ -109,17 +109,24 @@ p {
 
 
 .Edad1 {
-		background-color: #A0A0A0;
+	background-color: #A0A0A0;
 	width: 300px;
 	height: 200px;
 	margin: 2px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
+}
 
-	
+.Edad1:hover {
+	background-color: #9999ff;
+} 
 
-	
+.Edad1::after{
+	content: ': 34';
+	background-color: #ccccff;
+	padding: 10px;
 }
 
 .Dom1 {	background-color: #A0A0A0;
@@ -129,8 +136,17 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
 }
 
+
+.Dom1:hover {
+	background-color: #9999ff;
+} 
+
+.Dom1::after{
+	content: ': ### ';
+}
 
 .Extra1 {	background-color: #A0A0A0;
 	width: 300px;
@@ -139,7 +155,17 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
 	
+}
+
+
+.Extra1:hover {
+	background-color: #9999ff;
+} 
+
+.Extra1::after{
+	content: ': ### ';
 }
 
 /*cuadro con columna a la derecha */
@@ -165,10 +191,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
+}
 
-	
 
-	
+.Edad:hover {
+	background-color: #9999ff;
+} 
+
+.Edad::after{
+	content: ': ### ';
 }
 
 .Dom {
@@ -179,7 +211,17 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
 	
+}
+
+
+.Dom:hover {
+	background-color: #9999ff;
+} 
+
+.Dom::after{
+	content: ': ### ';
 }
 
 .Extra {
@@ -190,6 +232,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
+}
+
+
+.Extra:hover {
+	background-color: #9999ff;
+} 
+
+.Extra::after{
+	content: ': ### ';
 }
 
 /* Cuadro con botones centrados */
@@ -198,7 +250,6 @@ p {
 	border: 8px solid black;
 	height: 950px;
 	width:75%;
-	
 	background-color: #e9b0f5;
 	display: flex;
 	flex-wrap: wrap;
@@ -206,7 +257,6 @@ p {
 	align-content: center;
 	flex-direction: row-reverse;
 }
-
 
 .Edad2 {
 	background-color: #A0A0A0;
@@ -216,10 +266,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-	
+	cursor: pointer;	
+}
 
-	
+
+.Edad2:hover {
+	background-color: #9999ff;
+} 
+
+.Edad2::after{
+	content: ': ### ';
 }
 
 .Dom2 {
@@ -230,7 +286,16 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	}
+	cursor: pointer;	
+}
+
+.Dom2:hover {
+	background-color: #9999ff;
+} 
+
+.Dom2::after{
+	content: ': ### ';
+}
 
 
 .Extra2 {
@@ -241,8 +306,17 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;	
 }
 
+
+.Extra2:hover {
+	background-color: #9999ff;
+} 
+
+.Extra2::after{
+	content: ': ### ';
+}
 
 .Datos h2 {
 	font-family: 'Anton', sans-serif;
@@ -258,6 +332,10 @@ p {
 	color: #7105FF;
 	margin: 0;
 	background-color: #A0A0A0;
+}
+
+.icono:hover {
+	background-color: #9999ff;
 }
 
 .listas {
