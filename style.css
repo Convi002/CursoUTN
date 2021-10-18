@@ -8,331 +8,72 @@ body {
 	background-color: #D8D8E8;
 
 }
-/*
-.img {
-	border: 17px double #a550ff;
-	width: 250px;
-	border-radius: 18px 53px 51px 0px;
-	-webkit-border-radius: 18px 53px 51px 0px;
-	-moz-border-radius: 18px 53px 51px 0px;
-}
 
-h2 {
-	color: #0A0AFF;
-	font-size: 25px;
-	margin-left: 10px;
-
-}
-
-p {
-	text-align: justify;
-	margin: 5px;
-	padding: 5px;
-	background-color: #582D7D;
-	column-count: 2;
-	column-gap: 20px;
-
-	box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
-	-webkit-box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
-	-moz-box-shadow: 2px -2px 30px 1px rgba(168,14,238,0.75) inset;
-
-	border-radius: 5px;
-	font-family: 'Rubik', sans-serif;
-
-	color: white;
-
-}
-
-.Nombrecontainer {
-	border: 8px solid black;
-	background-color: #e9b0f5;
+ul {
+	list-style: none;
+	overflow: hidden;
+	background-color: #2E6687;
 	
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: center;
 }
 
-.Nombrecontainer h1 {
-	font-family: 'Bonheur Royale', cursive;
-	color: #7105FF;
+li  {
+	display: inline;
+	
 }
 
-.Nombre {
-	width: 250px;
-	background-color: white;
-	margin: 0;
-	border: 4px solid black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.Foto {
-	width: 350px;
-	background-color: blue;
-	margin: 0;
-	border: 4px solid black;
-	-webkit-border-radius: 18px 53px 51px 0px;
-	-moz-border-radius: 18px 53px 51px 0px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-
-.cv {
-	width: 250px;
-	background-color: white;
-	margin: 0;
-	border: 4px solid black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-
-*/
-
-/* Cuadro con botones at top */
-.Datos1 {
-	border: 8px solid black;
-	height: 650px;
-	width: 65%;
-	background-color: #e9b0f5;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: flex-start;
-	flex-direction: row-reverse;
-}
-
-
-.Edad1 {
-	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-}
-
-.Edad1:hover {
-	background-color: #9999ff;
-} 
-
-.Edad1::after{
-	content: ': ##';
-	background-color: #ccccff;
+li a {
 	padding: 10px;
-}
-
-.Dom1 {	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-}
-
-
-.Dom1:hover {
-	background-color: #9999ff;
-} 
-
-.Dom1::after{
-	content: ': ### ';
-}
-
-.Extra1 {	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-	
-}
-
-
-.Extra1:hover {
-	background-color: #9999ff;
-} 
-
-.Extra1::after{
-	content: ': ### ';
-}
-
-/*cuadro con columna a la derecha */
-
-.Datos {
-	height: 600px;
-	width: 90%;
-	background-color: #808080;
-	border: 8px solid #606060;
-	margin-top: 5px;
-	display: inline-flex;
-	flex-direction: column;
-	align-items: flex-end;
+	margin: 10px;
+	background-color: #989799;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
 
 }
 
-
-.Edad {
-	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	border: 1px solid #606060;	
-}
-
-
-.Edad:hover {
-	background-color: #9999ff;
-} 
-
-.Edad::after{
-	content: ': ### ';
-}
-
-.Dom {
-	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-	border: 1px solid #606060;
-}
-
-
-.Dom:hover {
-	background-color: #9999ff;
-} 
-
-.Dom::after{
-	content: ': ### ';
-}
-
-.Extra {
-	background-color: #A0A0A0;
-	width: 300px;
-	height: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;
-	border: 1px solid #606060;	
-}
-
-
-.Extra:hover {
-	background-color: #9999ff;
-} 
-
-.Extra::after{
-	content: ': ### ';
-}
-
-/* Cuadro con botones centrados */
-
-.Datos2 {
-	border: 8px solid black;
-	height: 950px;
-	width:75%;
-	background-color: #e9b0f5;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: center;
-	flex-direction: row-reverse;
-}
-
-.Edad2 {
-	background-color: #A0A0A0;
-	width: 350px;
-	height: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-}
-
-
-.Edad2:hover {
-	background-color: #9999ff;
-} 
-
-.Edad2::after{
-	content: ': ### ';
-}
-
-.Dom2 {
-	background-color: #A0A0A0;
-	width: 350px;
-	height: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-}
-
-.Dom2:hover {
-	background-color: #9999ff;
-} 
-
-.Dom2::after{
-	content: ': ### ';
-}
-
-
-.Extra2 {
-	background-color: #A0A0A0;
-	width: 350px;
-	height: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	cursor: pointer;	
-}
-
-
-.Extra2:hover {
-	background-color: #9999ff;
-} 
-
-.Extra2::after{
-	content: ': ### ';
-}
-
-.Datos h2 {
-	font-family: 'Anton', sans-serif;
-}
-
-.Datos li {
-	font-family: 'Anton', sans-serif;	
-}
-
-.icono {
-	font-size: 20px;
+.container {
+	background-color: #D5E0E1;
 	padding: 10px;
-	color: #7105FF;
+	width: 950px;
+	float: left;
+
+}
+.AsideText {
+	background-color: #D5E0E1;
+	width: 250px;
+	float: right;
+	
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px) {
+
+body{
+	padding: 0;
 	margin: 0;
-	background-color: #A0A0A0;
 }
 
-.icono:hover {
-	background-color: #9999ff;
+li a{
+	display: block;
+	margin-bottom: 3px;
+
 }
 
-.listas {
-	position: relative;
-	top: 900px;
+.container {
+	background-color: white;
+	width: 100%;
+	float: none;
+	padding: 0;
+	margin: 0;
+
+
+}	
+
+.AsideText {
+	background-color: lightblue;
+	width: 100%;
+	float: none;
+	padding: 0;
+	margin: 0;
+
+}
 }
