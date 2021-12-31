@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contando letras</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Tetxtarea</h1>
+<form name="tareaCurso">
+  <label for="tareaCurso"><h1>Escriba algun texto</h1></label>
+  <textarea id="tareaCurso" name="tareaCurso" rows="4" cols="100" oninput="contarLetras()">Escriba algun texto...</textarea>
+  <br>
+  <label for="letras">Cantidad de letras en el texto:</label>
+  <span id="letras">0</span>
+  <br>
+
+</form>
+
+  <script type="text/javascript">
+    
+    function contarLetras() {
+
+      var tareaCurso = document.tareaCurso.tareaCurso.value;
+      document.getElementById('letras').innerText = tareaCurso.length;
+
+    };
+
+  </script>
+
+</body>
+</html>
